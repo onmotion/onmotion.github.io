@@ -110,6 +110,7 @@ a {
 
 .socials {
   margin-top: 10px;
+  display: flex;
 }
 
 .info__links {
@@ -125,7 +126,7 @@ a {
 
 .socials__link {
   font-size: 25px;
-
+  margin-right: 4px;
   &:last-child {
     margin-right: 0;
   }

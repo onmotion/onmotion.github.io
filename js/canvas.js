@@ -7,6 +7,7 @@ var bgColor = colors[0];
 var animations = [];
 var circles = [];
 
+
 var colorPicker = (function(colors) {
 
     var index = 0;

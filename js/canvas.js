@@ -36,13 +36,14 @@ function calcPageFillRadius(x, y) {
 }
 
 function addClickListeners() {
-    document.addEventListener("touchstart", handleEvent);
-    document.addEventListener("mousedown", handleEvent);
+    document.addEventListener("touchstart", handleEvent, { passive: true });
+    document.addEventListener("mousedown", handleEvent, { passive: true });
 };
 
 function handleEvent(e) {
     if (e.touches) {
         e.preventDefault();
+        e.stopPropagation();
         e = e.touches[0];
     }
     var currentColor = colorPicker.current();

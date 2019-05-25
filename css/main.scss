@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  background: #e8eaed;
+  font-family: 'Montserrat', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  letter-spacing: .45px;
+  font-size: 14px;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+.google-form {
+  width: 640px;
+  margin: 50px 10px 0;
+
+}
+
+canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.content {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  color: #ffffff;
+  display: flex;
+}
+
+.info__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-image: url(https://avatars3.githubusercontent.com/u/12899080?s=160&v=4);
+  background-position: center;
+  background-size: contain;
+  flex-shrink: 0;
+  margin-right: 15px;
+}
+
+.info__link {
+  .icon{
+    display: inline-block;
+
+    transition: transform .9s ease;
+    transform: translateX(0);
+  }
+  &:hover .icon {
+    transform: translateX(3px);
+    transition: transform .2s;
+
+  }
+}
+
+h1, h2, h3 {
+  font-weight: 300;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+
+  transition: color .9s ease;
+
+  &:hover, &:active {
+    transition: color .1s;
+    color: #d3d9e4;
+  }
+}
+
+.info__title {
+  margin: 0 0 10px;
+  line-height: 1;
+}
+
+.info__subtitle {
+  margin: 0 0 10px;
+}

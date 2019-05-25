@@ -1,12 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Alexandr Kozhevnikov</title>
+    <meta charset="UTF-8">
+    <title>Alexandr Kozhevnikov</title>
+    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/waves.css">
 </head>
 <body>
-	<div>
-		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScQmOFj-lWJdzLDoFhQM-vgDZEzV-9qSN_e_NbhMP0JsFyu0w/viewform?embedded=true" width="640" height="751" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-	</div>
+<canvas id="c"></canvas>
+
+<div class="content">
+    <div class="container">
+        <div class="info">
+            <div class="info__avatar"></div>
+            <div class="info__description">
+                <h1 class="info__title">Alexandr Kozhevnikov</h1>
+                <h2 class="info__subtitle">iOS and Web developer</h2>
+                <a href="contact.html" class="link info__link">Contact me <span class="icon">&rightarrow;</span></a>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<div id="Clouds">
+    <div class="Cloud Foreground"></div>
+    <div class="Cloud Background"></div>
+    <div class="Cloud Foreground"></div>
+    <div class="Cloud Background"></div>
+    <div class="Cloud Foreground"></div>
+    <div class="Cloud Background"></div>
+    <div class="Cloud Background"></div>
+    <div class="Cloud Foreground"></div>
+    <div class="Cloud Background"></div>
+    <div class="Cloud Background"></div>
+    <!--  <svg viewBox="0 0 40 24" class="Cloud"><use xlink:href="#Cloud"></use></svg>-->
+</div>
+
+
+<div class="waves">
+    <div class="waveWrapper waveAnimation">
+        <div class="waveWrapperInner bgTop">
+            <div class="wave waveTop"
+                 style="background-image: url('assets/waves/wave-top.png')"></div>
+        </div>
+        <div class="waveWrapperInner bgMiddle">
+            <div class="wave waveMiddle"
+                 style="background-image: url('assets/waves/wave-mid.png')"></div>
+        </div>
+        <div class="waveWrapperInner bgBottom">
+            <div class="wave waveBottom"
+                 style="background-image: url('assets/waves/wave-bot.png')"></div>
+        </div>
+    </div>
+</div>
+
+<script src="js/libs/animejs/anime.min.js" type="text/javascript" charset="UTF-8" defer></script>
+<script src="js/canvas.js" type="text/javascript" charset="UTF-8" defer></script>
 </body>
 </html>

@@ -1,49 +1,44 @@
+@charset "UTF-8";
 @font-face {
-  font-family: 'kozhevnikov';
-  src:
-    url('fonts/kozhevnikov.ttf?w4fr3r') format('truetype'),
-    url('fonts/kozhevnikov.woff?w4fr3r') format('woff'),
-    url('fonts/kozhevnikov.svg?w4fr3r#kozhevnikov') format('svg');
+  font-family: "kozhevnikov";
+  src: url("fonts/kozhevnikov.ttf?w4fr3r") format("truetype"), url("fonts/kozhevnikov.woff?w4fr3r") format("woff"), url("fonts/kozhevnikov.svg?w4fr3r#kozhevnikov") format("svg");
   font-weight: normal;
-  font-style: normal;
-}
-
+  font-style: normal; }
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'kozhevnikov' !important;
+  font-family: "kozhevnikov" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  -moz-osx-font-smoothing: grayscale; }
 
 .icon-envelope-open-o:before {
-  content: "\e900";
-}
+  content: ""; }
+
 .icon-paper-plane-o:before {
-  content: "\e901";
-}
+  content: ""; }
+
 .icon-paper-plane:before {
-  content: "\e902";
-}
+  content: ""; }
+
 .icon-envelope:before {
-  content: "\e903";
-}
+  content: ""; }
+
 .icon-telegram:before {
-  content: "\e904";
-}
+  content: ""; }
+
 .icon-linkedin:before {
-  content: "\e905";
-}
+  content: ""; }
+
 .icon-github:before {
-  content: "\e906";
-}
+  content: ""; }
+
 .icon-vk:before {
-  content: "\e907";
-}
+  content: ""; }
+
+/*# sourceMappingURL=style.css.map */

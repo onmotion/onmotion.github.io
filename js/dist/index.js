@@ -1,0 +1,2 @@
+"use strict";function onready(a){(document.attachEvent?"complete"===document.readyState:"loading"!==document.readyState)?a():document.addEventListener("DOMContentLoaded",a)}onready(function(){// prevent circle color wave effect on click
+[].forEach.call(document.querySelectorAll("a"),function(a){a.addEventListener("mousedown",function(a){a.stopPropagation()}),a.addEventListener("touchstart",function(a){a.stopPropagation()})})});

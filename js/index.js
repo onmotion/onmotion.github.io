@@ -1,4 +1,12 @@
-document.addEventListener("DOMContentLoaded", function () {
+function onready(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        fn();
+    } else {
+        document.addEventListener('DOMContentLoaded', fn);
+    }
+}
+
+onready( function () {
     // prevent circle color wave effect on click
     [].forEach.call(document.querySelectorAll('a'), link => {
         link.addEventListener('mousedown', (e) => {
@@ -8,7 +16,6 @@ document.addEventListener("DOMContentLoaded", function () {
             e.stopPropagation();
         })
     })
-
 });
 
 

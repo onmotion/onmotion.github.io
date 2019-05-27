@@ -62,15 +62,18 @@
 }
 
 .waveAnimation .waveTop {
+  will-change: transform;
   animation: move_wave 12s linear infinite;
   -webkit-animation: move_wave 12s linear infinite;
 }
 
 .waveAnimation .waveMiddle {
+  will-change: transform;
   animation: move_wave 10s linear infinite;
 }
 
 .waveAnimation .waveBottom {
+  will-change: transform;
   animation: move_wave 15s linear infinite;
 }
 
@@ -83,6 +86,7 @@
   margin: auto;
   height: 30%;
   overflow: hidden;
+  will-change: opacity;
   animation: fade-in 3s ease-out;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -105,6 +109,7 @@
   background-repeat: no-repeat;
   background-size: auto 100%;
   height: 70px;
+  will-change: transform;
   animation-duration: 120s;
   animation-iteration-count: infinite;
   animation-fill-mode: forwards;

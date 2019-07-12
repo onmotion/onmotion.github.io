@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0396fbd-6604-4dba-ade6-2654b0666234" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/waves.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/waves.scss" afterDir="false" />
-    </list>
+    <list default="true" id="b0396fbd-6604-4dba-ade6-2654b0666234" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,8 +73,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/waves.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="75" column="25" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
+            <state relative-caret-position="798">
+              <caret line="100" column="8" lean-forward="true" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -270,12 +267,12 @@
       <workItem from="1558785254219" duration="19023000" />
       <workItem from="1558938772252" duration="2600000" />
       <workItem from="1558941683660" duration="3622000" />
-      <workItem from="1558965263359" duration="307000" />
+      <workItem from="1558965263359" duration="342000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25552000" />
+    <option name="totallyTimeSpent" value="25587000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="23" width="1920" height="999" extended-state="0" />
@@ -433,8 +430,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/waves.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="75" column="25" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
+        <state relative-caret-position="798">
+          <caret line="100" column="8" lean-forward="true" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="8" />
         </state>
       </provider>
     </entry>

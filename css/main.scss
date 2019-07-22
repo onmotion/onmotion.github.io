@@ -16,7 +16,7 @@ body {
   font-family: 'Montserrat', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   letter-spacing: .45px;
   font-size: 14px;
-  -webkit-overflow-scrolling: touch;
+  -webkit-overdata-tooltip-flow-scrolling: touch;
   -webkit-text-size-adjust: none;
 }
 
@@ -157,5 +157,66 @@ a {
 
   .icon-paper-plane {
     font-size: 20px;
+  }
+  .text-cv{
+    font-size: 17px;
+    font-weight: bold;
+  }
+}
+
+//Tooltips
+[data-tooltip] {
+  cursor: pointer;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    border-top-width: 0;
+    transform: translate(-50%, 10px);
+    background-color: #2B222A;
+    border-radius: 0;
+    color: #fff;
+    content: attr(data-tooltip);
+    padding: 8px 15px;
+    line-height: 1;
+    text-transform: none;
+    transition: all 0.1s ease-out;
+    white-space: nowrap;
+    z-index: 10;
+  }
+
+  &::after {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 110%;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #2B222A;
+    content: " ";
+    font-size: 0;
+    line-height: 0;
+    width: 0;
+  }
+
+  &::before,
+  &::after {
+    color: #efefef;
+    font-family: monospace;
+    font-size: 12px;
+    opacity: 0;
+    pointer-events: none;
+    text-align: center;
+  }
+  
+  &:focus::before,
+  &:focus::after,
+  &:hover::before,
+  &:hover::after {
+    opacity: 1;
+    transition: all 0.1s ease-out;
+    transform: translate(-50%, 0);
   }
 }
